@@ -1,0 +1,8 @@
+Metadata-Version: 2.4
+Name: agentic-platform
+Version: 0.1.0
+Summary: Agentic automation POC with tool-use, structured outputs, and Ollama
+Requires-Python: >=3.11
+Requires-Dist: pydantic>=2.6
+Requires-Dist: requests>=2.31
+Requires-Dist: python-dotenv>=1.0.1

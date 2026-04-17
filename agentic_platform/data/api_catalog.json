@@ -1,0 +1,83 @@
+[
+  {
+    "name": "Exchangerate Host - Latest Rates",
+    "category": "Currency Exchange",
+    "auth_required": false,
+    "base_url": "https://api.exchangerate.host/latest",
+    "docs_url": "https://exchangerate.host/",
+    "example_params": { "base": "EUR", "symbols": "USD,GBP" }
+  },
+
+  {
+    "name": "IPstack (APILayer)",
+    "category": "Security",
+    "auth_required": true,
+    "auth_env": "IPSTACK_API_KEY",
+    "base_url": "http://api.ipstack.com/{ip}",
+    "docs_url": "https://ipstack.com/documentation"
+  },
+  {
+    "name": "Marketstack (APILayer)",
+    "category": "Finance",
+    "auth_required": true,
+    "auth_env": "MARKETSTACK_API_KEY",
+    "base_url": "http://api.marketstack.com/v1/eod",
+    "docs_url": "https://marketstack.com/documentation"
+  },
+  {
+    "name": "Weatherstack (APILayer)",
+    "category": "Weather",
+    "auth_required": true,
+    "auth_env": "WEATHERSTACK_API_KEY",
+    "base_url": "http://api.weatherstack.com/current",
+    "docs_url": "https://weatherstack.com/documentation"
+  },
+  {
+    "name": "Numverify (APILayer)",
+    "category": "Phone",
+    "auth_required": true,
+    "auth_env": "NUMVERIFY_API_KEY",
+    "base_url": "http://apilayer.net/api/validate",
+    "docs_url": "https://numverify.com/documentation"
+  },
+  {
+    "name": "Fixer (APILayer)",
+    "category": "Currency Exchange",
+    "auth_required": true,
+    "auth_env": "FIXER_API_KEY",
+    "base_url": "http://data.fixer.io/api/latest",
+    "docs_url": "https://fixer.io/documentation"
+  },
+  {
+    "name": "Aviationstack (APILayer)",
+    "category": "Transportation",
+    "auth_required": true,
+    "auth_env": "AVIATIONSTACK_API_KEY",
+    "base_url": "http://api.aviationstack.com/v1/flights",
+    "docs_url": "https://aviationstack.com/documentation"
+  },
+  {
+    "name": "Zenserp (APILayer)",
+    "category": "Business",
+    "auth_required": true,
+    "auth_env": "ZENSERP_API_KEY",
+    "base_url": "https://app.zenserp.com/api/v2/search",
+    "docs_url": "https://app.zenserp.com/documentation"
+  },
+  {
+    "name": "Screenshotlayer (APILayer)",
+    "category": "Photography",
+    "auth_required": true,
+    "auth_env": "SCREENSHOTLAYER_API_KEY",
+    "base_url": "http://api.screenshotlayer.com/api/capture",
+    "docs_url": "https://screenshotlayer.com/documentation"
+  },
+  {
+    "name": "Mailboxlayer (APILayer)",
+    "category": "Email",
+    "auth_required": true,
+    "auth_env": "MAILBOXLAYER_API_KEY",
+    "base_url": "http://apilayer.net/api/check",
+    "docs_url": "https://mailboxlayer.com/documentation"
+  }
+]

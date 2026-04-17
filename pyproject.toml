@@ -1,0 +1,14 @@
+[project]
+name = "agentic-platform"
+version = "0.1.0"
+description = "Agentic automation POC with tool-use, structured outputs, and Ollama"
+requires-python = ">=3.11"
+dependencies = [
+  "pydantic>=2.6",
+  "requests>=2.31",
+  "python-dotenv>=1.0.1",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["agentic_platform*"]
